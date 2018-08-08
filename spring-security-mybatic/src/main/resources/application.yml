@@ -1,0 +1,48 @@
+spring:
+  datasource:
+    username: root
+    password: unimob@12254ns
+#    url: jdbc:mysql://192.168.100.161:3306/mybatis_test?characterEncoding=utf8&useSSL=false
+#    password: Shuaizheng1995!!
+    url: jdbc:mysql://192.168.100.21:3306/teacher?characterEncoding=UTF-8&transformedBitIsBoolean=false&tinyInt1isBit=false
+    hikari:
+      maximum-pool-size: 20
+      auto-commit: true
+      minimum-idle: 300000
+      idle-timeout: 20
+
+  application:
+    name: mybatis-demo
+
+
+# mybatis配置
+mybatis:
+  type-aliases-package: tk.mybatis.springboot.model
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+# mapper配置
+mapper:
+  mappers:
+    - top.jbzm.demo.springsecuritymybatic.mapper
+  not-empty: false
+  identity: MYSQL
+  style: camelhump
+  enable-method-annotation: true
+# pagehelper配置
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+server:
+  port: 10020
+debug: true
+jbzm:
+  web:
+    tool:
+      result: false
+      exception: true
+
+

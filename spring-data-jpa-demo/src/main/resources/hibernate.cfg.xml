@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://192.168.100.161:3306/jpademo</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <mapping class="top.jbzm.demospringdatajpa.entity.HibernateSequenceEntity"/>
+    <mapping class="top.jbzm.demospringdatajpa.entity.RoleEntity"/>
+    <mapping class="top.jbzm.demospringdatajpa.entity.UserEntity"/>
+    <mapping class="top.jbzm.demospringdatajpa.entity.UserRoleEntity"/>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

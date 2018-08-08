@@ -1,0 +1,28 @@
+server:
+  port: 8888
+spring:
+  output:
+    ansi:
+      enabled: always
+  redis:
+    password: admin
+    port: 6379
+    host: 192.168.100.161
+  datasource:
+    password: Shuaizheng1995!!
+    username: root
+    url: jdbc:mysql://192.168.100.161:3306/securitydemo
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+security:
+  user:
+    name: admin
+    password: admin
+    role: admin
+  basic:
+    enabled: false
+jbzm:
+  swagger:
+    path: top.jbzm
