@@ -28,7 +28,7 @@ public class ImageTestController {
     @PostMapping(value = "test01")
     @LogToolNB
     public String test01(MultipartFile file) throws IOException {
-        return uploadFile.ftpUploadFileInputStream(file.getInputStream(), "test2.sh", FilePath.BASE_PATH.getContent());
+        return uploadFile.ftpUploadFileInputStream(file.getInputStream(), "test2.png", FilePath.BASE_PATH.getContent());
     }
 
     @PostMapping("test02")

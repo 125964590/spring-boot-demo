@@ -5,24 +5,21 @@ spring:
     ansi:
       enabled: always
   redis:
-    password: admin
     port: 6379
-    host: 192.168.100.161
+    host: 192.168.100.47
   datasource:
     password: Shuaizheng1995!!
     username: root
-    url: jdbc:mysql://192.168.100.161:3306/securitydemo
+    url: jdbc:mysql://192.168.100.47:3306/security_test
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
-security:
-  user:
-    name: admin
-    password: admin
-    role: admin
-  basic:
-    enabled: false
 jbzm:
   swagger:
     path: top.jbzm
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

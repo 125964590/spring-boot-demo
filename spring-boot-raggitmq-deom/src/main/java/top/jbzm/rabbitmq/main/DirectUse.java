@@ -11,12 +11,11 @@ import java.io.IOException;
  **/
 public class DirectUse {
     public static void main(String args[]) throws Exception {
-        int i = 0;
-        while (i < 10) {
-            i++;
-            BaseUse.Publisher();
-        }
+
+//        BaseUse.Publisher();
+        DeadLetterUse.publish();
         rejectMessage();
+
     }
 
     public static void Consumer() throws Exception {
@@ -43,6 +42,7 @@ public class DirectUse {
         channel.queueDeclare("lol", false, false, false, null);
         GetResponse resp = channel.basicGet("lol", false);
         String message = new String(resp.getBody(), "UTF-8");
+        System.out.println(message);
         //消息拒绝
         channel.basicReject(resp.getEnvelope().getDeliveryTag(), true);
     }

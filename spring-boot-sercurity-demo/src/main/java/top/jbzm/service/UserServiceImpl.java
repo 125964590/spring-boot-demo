@@ -1,15 +1,15 @@
 package top.jbzm.service;
 
+import com.ht.base.common.ErrorResult;
+import com.ht.base.exception.MyException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
-import top.jbzm.common.ErrorResult;
 import top.jbzm.entity.User;
 import top.jbzm.entity.dto.UserInfo;
-import top.jbzm.exception.MyException;
 import top.jbzm.repository.UserRepository;
 
 /**
@@ -19,8 +19,12 @@ import top.jbzm.repository.UserRepository;
 @Service
 public class UserServiceImpl implements UserService {
 
+    private final UserRepository userRepository;
+
     @Autowired
-    private UserRepository userRepository;
+    public UserServiceImpl(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 
     @Override
     public UserDetails loadByUsernameAndPassword(String username, String password) {

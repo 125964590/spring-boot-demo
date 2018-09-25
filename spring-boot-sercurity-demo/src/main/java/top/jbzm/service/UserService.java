@@ -1,12 +1,7 @@
 package top.jbzm.service;
 
-import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import top.jbzm.entity.User;
-
-import java.util.Collection;
 
 /**
  * @author jbzm

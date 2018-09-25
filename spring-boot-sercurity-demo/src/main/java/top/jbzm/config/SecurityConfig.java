@@ -30,7 +30,7 @@ import java.util.Arrays;
  * @author jbzm
  * @date Create on 2018/3/7 15:58
  */
-@EnableWebSecurity
+//@EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserService userService;

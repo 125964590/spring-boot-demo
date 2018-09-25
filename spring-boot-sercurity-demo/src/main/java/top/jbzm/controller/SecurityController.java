@@ -20,31 +20,34 @@ import java.util.function.Function;
  * @date Create on 2018/3/7 17:49
  */
 @RestController
-@RequestMapping("/security")
 public class SecurityController {
 
 
-    @Autowired
-    private RedisTemplate redisTemplate;
+    private final RedisTemplate redisTemplate;
 
-    @GetMapping("/toLogin")
+    @Autowired
+    public SecurityController(RedisTemplate redisTemplate) {
+        this.redisTemplate = redisTemplate;
+    }
+
+    @GetMapping("/login")
     public Object toLogin(HttpServletRequest request, HttpServletResponse response) {
         return "跳转登录页";
     }
 
-    @PostMapping("/success/login")
+    @PostMapping("/login/success")
     public Object successLogin() {
         String token = UUID.randomUUID().toString();
 
         return "登录成功";
     }
 
-    @GetMapping("/false")
+    @GetMapping("/login/fail")
     public Object loginFalse() {
         return "登录失败";
     }
 
-    @GetMapping("/success/logout")
+    @GetMapping("/logout/success")
     public Object successLogout() {
         return "登出成功";
     }
