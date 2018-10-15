@@ -19,6 +19,10 @@
         <module>spring-data-jpa-demo</module>
         <module>spring-data-mybatis-demo</module>
         <module>spring-security-mybatic</module>
-        <module>springboot-log</module>
+        <module>spring-boot-2</module>
+        <module>redis-cache</module>
+        <module>fegin-demo</module>
+        <module>data-connect-pool</module>
+        <module>annotation</module>
     </modules>
 </project>
