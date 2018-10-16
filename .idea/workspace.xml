@@ -2,64 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f27339-83ac-4141-bfcd-259632c9a218" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/SpringApplicationBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/controller/TestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation-image-log/src/main/java/top/jbzm/demo/annotationimagelog/controller/ImageTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotation-image-log/src/main/java/top/jbzm/demo/annotationimagelog/controller/ImageTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation-image-log/src/main/resources/log4j2-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/annotation-image-log/src/main/resources/log4j2-dev.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/constant/DateFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/constant/DateFormatForMySql.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/constant/FBClassCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/constant/ProductCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/constant/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/constant/UserRegisterCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/dto/CourseHotListDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/dto/SeckillDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/dto/VChartResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/utils/DateGet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/vo/MatchListVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/vo/OrderSubjectAllListVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/vo/OrderSubjectDetailVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/vo/OrderSubjectListVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-common/src/main/java/com/ht/galaxy/vo/OrderSubjectTypeVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/java/com/ht/galaxy/SearchApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/java/com/ht/galaxy/config/ElasticSearchConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/java/com/ht/galaxy/config/MongoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/META-INF/app.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/config/log4j2-dev.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/config/log4j2-prod.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/deploy/assembly.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/deploy/run.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/deploy/run_product.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galaxy-search/search-server/src/main/resources/deploy/server.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-cache.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-raggitmq-deom/src/main/java/top/jbzm/rabbitmq/config/ConnectionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-raggitmq-deom/src/main/java/top/jbzm/rabbitmq/config/ConnectionFactoryUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-raggitmq-deom/src/main/java/top/jbzm/rabbitmq/main/DeadLetterUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-raggitmq-deom/src/main/java/top/jbzm/rabbitmq/main/DeadLetterUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-raggitmq-deom/src/main/java/top/jbzm/rabbitmq/main/DirectUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-raggitmq-deom/src/main/java/top/jbzm/rabbitmq/main/DirectUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-raggitmq-deom/src/main/java/top/jbzm/rabbitmq/main/FunOutUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-raggitmq-deom/src/main/java/top/jbzm/rabbitmq/main/FunOutUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-raggitmq-deom/src/main/java/top/jbzm/rabbitmq/main/TopicUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-raggitmq-deom/src/main/java/top/jbzm/rabbitmq/main/TopicUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-sercurity-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-sercurity-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/config/RedisSessionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/config/RedisSessionConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/config/RestClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/controller/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/controller/SecurityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/controller/TestLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/controller/TestLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/java/top/jbzm/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-sercurity-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-connect-pool/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data-connect-pool/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-connect-pool/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data-connect-pool/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-connect-pool/target/classes/top/jbzm/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-connect-pool/target/classes/top/jbzm/controller/TestController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-data-mybatis-demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-security-mybatic/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-aop-demo/target/" />
+    <ignored path="$PROJECT_DIR$/mongondb/target/" />
+    <ignored path="$PROJECT_DIR$/log4j-demo/target/" />
+    <ignored path="$PROJECT_DIR$/oauth2-sso-jwt/oauth2-server/target/" />
+    <ignored path="$PROJECT_DIR$/annotation-image-log/target/" />
+    <ignored path="$PROJECT_DIR$/oauth2-sso-jwt/target/" />
+    <ignored path="$PROJECT_DIR$/oauth2-sso-jwt/oauth2-client/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-sercurity-demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-data-jpa-demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-raggitmq-deom/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-2/target/" />
+    <ignored path="$PROJECT_DIR$/redis-cache/target/" />
+    <ignored path="$PROJECT_DIR$/fegin-demo/target/" />
+    <ignored path="$PROJECT_DIR$/annotation/target/" />
+    <ignored path="$PROJECT_DIR$/data-connect-pool/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +42,116 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
     <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DefaultSingletonBeanRegistry.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="53" column="77" lean-forward="true" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-connect-pool/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="35" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestConnect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/test/connect/pool/TestConnect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAnnotations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/test/JUnit5/TestAnnotations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/controller/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringApplicationBeanTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/SpringApplicationBeanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutowireCapableBeanFactory.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutowireCapableBeanFactory.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.16.RELEASE/spring-beans-4.3.16.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6006">
+              <caret line="293" column="7" selection-start-line="293" selection-start-column="7" selection-end-line="293" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractAutowireCapableBeanFactory.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.16.RELEASE/spring-beans-4.3.16.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1430">
+              <caret line="141" column="7" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractAutowireCapableBeanFactory.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7282">
+              <caret line="417" column="30" selection-start-line="417" selection-start-column="30" selection-end-line="417" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>applyBeanPostProcessorsAfterInitialization</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -82,6 +160,18 @@
       <map>
         <entry key="$PROJECT_DIR$/../../../PublicProject/spring-security" value="PREVIEW" />
       </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/data-connect-pool/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/SpringApplicationBeanTest.java" />
+        <option value="$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/controller/TestService.java" />
+        <option value="$PROJECT_DIR$/data-connect-pool/pom.xml" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -97,6 +187,17 @@
         <option name="userSettingsFile" value="$USER_HOME$/.m2/settings1.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -110,6 +211,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,16 +220,100 @@
               <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data-connect-pool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data-connect-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data-connect-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data-connect-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data-connect-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jbzm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data-connect-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jbzm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data-connect-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jbzm" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data-connect-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jbzm" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data-connect-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jbzm" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="JUnit5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feign-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data-connect-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="applyBeanPostProcessorsAfterInitialization&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.AutowireCapableBeanFactory#applyBeanPostProcessorsAfterInitialization&#10;applyBeanPostProcess&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.AutowireCapableBeanFactory#applyBeanPostProcessorsAfterInitialization&#10;getSingleton&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.DefaultSingletonBeanRegistry#getSingleton" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -136,6 +323,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,54 +395,410 @@
       <option name="presentableId" value="Default" />
       <updated>1536312192660</updated>
       <workItem from="1536312195593" duration="32000" />
+      <workItem from="1539598308743" duration="5933000" />
+      <workItem from="1539658941660" duration="2443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32000" />
+    <option name="totallyTimeSpent" value="8408000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="RestServices" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.43958333" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942804" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="JRebel" side_tool="true" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32983795" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3981588" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.178125" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="JProfiler" order="7" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="RestServices" order="0" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info id="JRebel" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3981588" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Mongo Explorer" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="JProfiler" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.43958333" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="12" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="1" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/SpringBootApplicationTest.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.16.RELEASE/spring-beans-4.3.16.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>421</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>processor.postProcessBeforeInitialization(result, beanName)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>beanName.equals(&quot;testService&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.singletonObjects.get(beanName)==&quot;controll&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.singletonObjects.get(beanName)==</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6028">
+          <caret line="295" column="53" selection-start-line="295" selection-start-column="11" selection-end-line="295" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.16.RELEASE/spring-beans-4.3.16.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6006">
+          <caret line="293" column="7" selection-start-line="293" selection-start-column="7" selection-end-line="293" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.16.RELEASE/spring-beans-4.3.16.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="141" column="7" lean-forward="true" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7282">
+          <caret line="417" column="30" selection-start-line="417" selection-start-column="30" selection-end-line="417" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3080">
+          <caret line="175" column="32" selection-start-line="175" selection-start-column="32" selection-end-line="175" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/config/HikariCPConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/SpringBootApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="1086" column="62" selection-start-line="1086" selection-start-column="62" selection-end-line="1086" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6028">
+          <caret line="295" column="53" selection-start-line="295" selection-start-column="11" selection-end-line="295" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.16.RELEASE/spring-beans-4.3.16.RELEASE.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.16.RELEASE/spring-beans-4.3.16.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6006">
+          <caret line="293" column="7" selection-start-line="293" selection-start-column="7" selection-end-line="293" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.14.RELEASE/spring-test-4.3.14.RELEASE.jar!/org/springframework/test/web/servlet/setup/StubWebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="288" column="22" selection-start-line="288" selection-start-column="22" selection-end-line="288" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.14.RELEASE/spring-test-4.3.14.RELEASE-sources.jar!/org/springframework/test/web/servlet/setup/StubWebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="418" column="9" lean-forward="true" selection-start-line="418" selection-start-column="9" selection-end-line="418" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="294" column="11" selection-start-line="294" selection-start-column="11" selection-end-line="294" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7326">
+          <caret line="420" column="37" lean-forward="true" selection-start-line="420" selection-start-column="37" selection-end-line="420" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.16.RELEASE/spring-beans-4.3.16.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="141" column="7" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7282">
+          <caret line="417" column="30" selection-start-line="417" selection-start-column="30" selection-end-line="417" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="53" column="77" lean-forward="true" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/test/connect/pool/TestConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/test/JUnit5/TestAnnotations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/SpringApplicationBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-connect-pool/src/main/java/top/jbzm/controller/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-connect-pool/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
