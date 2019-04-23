@@ -23,10 +23,11 @@ public class AopConfig {
         this.rabbitTemplate = rabbitTemplate;
     }
 
-    @AfterReturning(returning = "ret", pointcut = "execution(public * top.jbzm.rabbitmq.controller.AopTest.test01(..))")
+    @AfterReturning(
+            returning = "ret",
+            pointcut = "execution(public * top.jbzm.rabbitmq.controller.AopTest.test01(..))")
     public void after(String ret) {
         System.out.println(ret);
-        rabbitTemplate.convertAndSend("lol",ret);
+        rabbitTemplate.convertAndSend("lol", ret);
     }
-
 }

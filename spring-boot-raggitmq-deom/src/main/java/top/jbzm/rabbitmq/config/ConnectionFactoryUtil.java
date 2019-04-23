@@ -9,15 +9,15 @@ import java.io.IOException;
 /**
  * @author zhengyi
  * @date 2018/8/7 4:48 PM
- **/
+ */
 public class ConnectionFactoryUtil {
     public static Connection GetRabbitConnection() {
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setUsername("guest");
-        factory.setPassword("guest");
+        factory.setUsername("jbzm");
+        factory.setPassword("jbzm");
         factory.setVirtualHost("/");
         factory.setHost("localhost");
-        factory.setPort(5673);
+        factory.setPort(5672);
         Connection conn = null;
         try {
             conn = factory.newConnection();
@@ -26,6 +26,7 @@ public class ConnectionFactoryUtil {
         }
         return conn;
     }
+
     public static void main(String args[]) throws IOException {
         Channel channel = GetRabbitConnection().createChannel();
     }

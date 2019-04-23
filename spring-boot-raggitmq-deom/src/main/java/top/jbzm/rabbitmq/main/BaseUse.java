@@ -13,7 +13,7 @@ public class BaseUse {
     public static void main(String[] args) {
         Publisher(); // 推送消息
 
-//        Consumer(); // 消费消息
+        Consumer(); // 消费消息
     }
 
     /**
