@@ -1,11 +1,8 @@
-server:
-  port: 8089
-
 spring:
   rabbitmq:
-    addresses: localhost:5672
-    username: guest
-    password: guest
+    username: jbzm
+    password: jbzm
     connection-timeout: 10000
+    host: 10.1.12.69
   aop:
     proxy-target-class: true

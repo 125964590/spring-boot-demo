@@ -16,7 +16,7 @@ public class ConnectionFactoryUtil {
         factory.setUsername("jbzm");
         factory.setPassword("jbzm");
         factory.setVirtualHost("/");
-        factory.setHost("localhost");
+        factory.setHost("221.122.129.89");
         factory.setPort(5672);
         Connection conn = null;
         try {
