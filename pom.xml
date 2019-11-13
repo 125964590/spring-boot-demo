@@ -12,6 +12,7 @@
     <modules>
         <module>annotation-image-log</module>
         <module>mongondb</module>
+        <module>annotation-test</module>
         <module>oauth2-sso-jwt</module>
         <module>spring-boot-aop-demo</module>
         <module>spring-boot-raggitmq-deom</module>

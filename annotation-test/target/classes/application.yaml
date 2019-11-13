@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    password: lol
+    username: root
+  lol:
+    paasword: jbzm
+    username: haha

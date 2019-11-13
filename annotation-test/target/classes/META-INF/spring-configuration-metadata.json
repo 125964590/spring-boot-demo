@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "spring.lol",
+      "type": "top.jbzm.annotationtest.config.PropertiesConfig$User",
+      "sourceType": "top.jbzm.annotationtest.config.PropertiesConfig",
+      "sourceMethod": "test(javax.sql.DataSource)"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.lol.email",
+      "type": "java.lang.String",
+      "sourceType": "top.jbzm.annotationtest.config.PropertiesConfig$User"
+    },
+    {
+      "name": "spring.lol.paasword",
+      "type": "java.lang.String",
+      "sourceType": "top.jbzm.annotationtest.config.PropertiesConfig$User"
+    },
+    {
+      "name": "spring.lol.username",
+      "type": "java.lang.String",
+      "sourceType": "top.jbzm.annotationtest.config.PropertiesConfig$User"
+    }
+  ],
+  "hints": []
+}

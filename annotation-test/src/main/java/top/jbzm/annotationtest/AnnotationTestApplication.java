@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class AnnotationTestApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AnnotationTestApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(AnnotationTestApplication.class, args);
+  }
 }
