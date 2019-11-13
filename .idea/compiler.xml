@@ -6,25 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="annotation" />
-        <module name="annotation-image-log" />
-        <module name="data-connect-pool" />
-        <module name="fegin-demo" />
+        <module name="spring-boot-aop-demo" />
         <module name="log4j-demo" />
-        <module name="mongondb" />
-        <module name="oauth2-demo" />
-        <module name="oauth2-server" />
+        <module name="fegin-demo" />
+        <module name="spring-data-mybatis-demo" />
+        <module name="spring-boot-sercurity-demo" />
+        <module name="spring-security-mybatic" />
         <module name="oauth2-sso-jwt" />
         <module name="redis-cache" />
-        <module name="spring-boot-2" />
-        <module name="spring-boot-aop-demo" />
-        <module name="spring-boot-demo" />
+        <module name="apollo-demo" />
+        <module name="spring-boot-webflux-demo" />
+        <module name="oauth2-demo" />
+        <module name="annotation-image-log" />
         <module name="spring-boot-raggitmq-deom" />
-        <module name="spring-boot-sercurity-demo" />
+        <module name="spring-boot-2" />
+        <module name="redis-demo" />
+        <module name="oauth2-server" />
+        <module name="data-connect-pool" />
+        <module name="mongondb" />
         <module name="spring-data-jpa-demo" />
-        <module name="spring-data-mybatis-demo" />
-        <module name="spring-security-mybatic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="annotation" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="annotation-image-log" options="-parameters" />
+      <module name="data-connect-pool" options="-parameters" />
+      <module name="mongondb" options="-parameters" />
+      <module name="spring-data-jpa-demo" options="-parameters" />
+    </option>
   </component>
 </project>
